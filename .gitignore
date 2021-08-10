@@ -1,0 +1,6 @@
+local/
+.DS_Store
+._*
+build
+node_modules
+.repl_history
