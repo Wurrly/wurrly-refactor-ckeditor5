@@ -9,6 +9,9 @@
 		"prepublishOnly": "npm run build",
 		"prettier": "prettier --write \"src/**/*.{js,ts,tsx,css}\""
 	},
+	"keywords": [
+		"ckeditor5"
+	],
 	"author": "Jorge Espinoza",
 	"license": "MIT",
 	"devDependencies": {
@@ -50,6 +53,12 @@
 		"webpack": "^4.46.0",
 		"webpack-cli": "^4.7.2"
 	},
+	"files": [
+		"build/",
+		"LICENSE",
+		"README.md",
+		"package.json"
+	],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Wurrly/wurrly-refactor-ckeditor5"
