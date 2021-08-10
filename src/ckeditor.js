@@ -134,7 +134,7 @@ Editor.defaultConfig = {
 			'fontSize',
 			'|',
 			'imageInsert',
-			'imageUpload',
+			// 'imageUpload',
 			'mediaEmbed',
 			'insertTable',
 			'|',
