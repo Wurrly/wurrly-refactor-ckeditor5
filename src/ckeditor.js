@@ -108,4 +108,52 @@ Editor.builtinPlugins = [
 	WordCount
 ]
 
+Editor.defaultConfig = {
+	toolbar: {
+		items: [
+			'heading',
+			'|',
+			'bold',
+			'italic',
+			'link',
+			'bulletedList',
+			'numberedList',
+			'todoList',
+			'|',
+			'outdent',
+			'indent',
+			'alignment',
+			'|',
+			'blockQuote',
+			'highlight',
+			'underline',
+			'|',
+			'fontColor',
+			'fontFamily',
+			'fontBackgroundColor',
+			'fontSize',
+			'|',
+			'imageInsert',
+			'imageUpload',
+			'mediaEmbed',
+			'insertTable',
+			'|',
+			'pageBreak',
+			'horizontalLine',
+			'|',
+			'findAndReplace',
+			'undo',
+			'redo'
+		]
+	},
+	image: {
+		toolbar: ['imageTextAlternative', 'imageStyle:inline', 'imageStyle:block', 'imageStyle:side', 'linkImage']
+	},
+	table: {
+		contentToolbar: ['tableColumn', 'tableRow', 'mergeTableCells', 'tableCellProperties', 'tableProperties']
+	},
+	// This value must be kept in sync with the language defined in webpack.config.js.
+	language: 'en'
+}
+
 export default Editor
