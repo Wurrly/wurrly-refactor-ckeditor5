@@ -7,7 +7,7 @@ import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment.js'
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat.js'
 import AutoImage from '@ckeditor/ckeditor5-image/src/autoimage.js'
 import AutoLink from '@ckeditor/ckeditor5-link/src/autolink.js'
-import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js'
+// import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter.js'
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote.js'
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold.js'
 import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices.js'
@@ -61,7 +61,7 @@ Editor.builtinPlugins = [
 	Autoformat,
 	AutoImage,
 	AutoLink,
-	Base64UploadAdapter,
+	// Base64UploadAdapter,
 	BlockQuote,
 	Bold,
 	CloudServices,

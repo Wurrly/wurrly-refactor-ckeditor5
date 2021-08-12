@@ -90,6 +90,7 @@
 								<strong>the culture</strong> of languages varies substantially and the language a person speaks is an essential element of daily life.
 							</p>
 						</div>
+						<div id="word-count"></div>
 					</div>
 				</div></div>
 			</div>
@@ -106,7 +107,6 @@
 		<script src="../build/ckeditor.js"></script>
 		<script>ClassicEditor
 				.create( document.querySelector( '.editor' ), {
-					
 				toolbar: {
 					items: [
 						'heading',
@@ -166,13 +166,15 @@
 					licenseKey: '',
 					
 					
-					
 				} )
 				.then( editor => {
 					window.editor = editor;
 			
-					
-					
+					// word count example
+					const wordCountPlugin = editor.plugins.get( 'WordCount' );
+					const wordCountWrapper = document.getElementById( 'word-count' );
+
+					wordCountWrapper.appendChild( wordCountPlugin.wordCountContainer );
 					
 				} )
 				.catch( error => {
