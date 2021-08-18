@@ -15,7 +15,7 @@ import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials.js'
 import FindAndReplace from '@ckeditor/ckeditor5-find-and-replace/src/findandreplace.js'
 import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor.js'
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor.js'
-import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily.js'
+// import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily.js'
 import FontSize from '@ckeditor/ckeditor5-font/src/fontsize.js'
 import Heading from '@ckeditor/ckeditor5-heading/src/heading.js'
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight.js'
@@ -69,7 +69,7 @@ Editor.builtinPlugins = [
 	FindAndReplace,
 	FontBackgroundColor,
 	FontColor,
-	FontFamily,
+	// FontFamily,
 	FontSize,
 	Heading,
 	Highlight,
@@ -129,7 +129,7 @@ Editor.defaultConfig = {
 			'underline',
 			'|',
 			'fontColor',
-			'fontFamily',
+			// 'fontFamily',
 			'fontBackgroundColor',
 			'fontSize',
 			'|',
