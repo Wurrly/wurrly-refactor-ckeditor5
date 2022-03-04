@@ -152,6 +152,18 @@ Editor.defaultConfig = {
 	table: {
 		contentToolbar: ['tableColumn', 'tableRow', 'mergeTableCells', 'tableCellProperties', 'tableProperties']
 	},
+	link: {
+		decorators: {
+			addTargetToExternalLinks: {
+				mode: 'automatic',
+				callback: url => /^(https?:)?\/\//.test( url ),
+				attributes: {
+					target: '_blank',
+					rel: 'noopener noreferrer'
+				}
+			}
+		}
+	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
 	language: 'en'
 }
