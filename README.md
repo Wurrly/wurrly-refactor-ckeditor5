@@ -27,8 +27,6 @@ Go to package and increment the version
 
 ### Final step
 
-Login to npm (this was done using jorge@capicua.com.uy npm account)
-
     npm login
 
 Publish the code
