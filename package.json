@@ -1,7 +1,7 @@
 {
-	"name": "wurrly-refactor-ckeditor5",
+	"name": "capicua-wurrly-refactor-ckeditor5",
 	"description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
-	"version": "0.0.9",
+	"version": "0.0.11",
 	"main": "./build/ckeditor.js",
 	"scripts": {
 		"clean": "rimraf build",
@@ -65,6 +65,6 @@
 	},
 	"bugs": {
 		"url": "https://github.com/Wurrly/wurrly-refactor-ckeditor5/issues",
-		"email": "jorge@capicua.com.uy"
+		"email": "develop@capicua.com.uy"
 	}
 }
