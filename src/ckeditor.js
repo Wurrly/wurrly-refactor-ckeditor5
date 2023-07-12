@@ -22,7 +22,7 @@ import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight.js'
 // import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalline.js'
 import Image from '@ckeditor/ckeditor5-image/src/image.js'
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption.js'
-// import ImageInsert from '@ckeditor/ckeditor5-image/src/imageinsert.js'
+import ImageInsert from '@ckeditor/ckeditor5-image/src/imageinsert.js'
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize.js'
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle.js'
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar.js'
@@ -34,7 +34,7 @@ import Link from '@ckeditor/ckeditor5-link/src/link.js'
 import LinkImage from '@ckeditor/ckeditor5-link/src/linkimage.js'
 import List from '@ckeditor/ckeditor5-list/src/list.js'
 import ListStyle from '@ckeditor/ckeditor5-list/src/liststyle.js'
-// import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed.js'
+import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed.js'
 // import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak.js'
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js'
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice.js'
@@ -76,7 +76,7 @@ Editor.builtinPlugins = [
 	// HorizontalLine,
 	Image,
 	ImageCaption,
-	// ImageInsert,
+	ImageInsert,
 	ImageResize,
 	ImageStyle,
 	ImageToolbar,
@@ -88,7 +88,7 @@ Editor.builtinPlugins = [
 	LinkImage,
 	List,
 	ListStyle,
-	// MediaEmbed,
+	MediaEmbed,
 	// PageBreak,
 	Paragraph,
 	PasteFromOffice,
@@ -133,9 +133,9 @@ Editor.defaultConfig = {
 			'fontBackgroundColor',
 			'fontSize',
 			'|',
-			// 'imageInsert',
+			'imageInsert',
 			// 'imageUpload',
-			// 'mediaEmbed',
+			'mediaEmbed',
 			// 'insertTable',
 			// '|',
 			// 'pageBreak',
