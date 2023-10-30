@@ -52,11 +52,13 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist'
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js'
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount.js'
+import customThumbnailPlugin from './customThumbnailPlugin.js'
 
 class Editor extends ClassicEditor {}
 
 // Plugins to include in the build.
 Editor.builtinPlugins = [
+	customThumbnailPlugin,
 	Alignment,
 	Autoformat,
 	AutoImage,
@@ -146,6 +148,7 @@ Editor.defaultConfig = {
 			'redo'
 		]
 	},
+	plugins: [customThumbnailPlugin],
 	image: {
 		toolbar: ['imageTextAlternative', 'imageStyle:inline', 'imageStyle:block', 'imageStyle:side', 'linkImage']
 	},
